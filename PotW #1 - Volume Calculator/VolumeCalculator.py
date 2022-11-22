@@ -1,7 +1,6 @@
 import numpy as np
 
-welcome_message = """
-This calculator currently supports the following types of geometric shapes:
+welcome_message = """This calculator currently supports the following types of geometric shapes:
         Cube
         Cuboid
         Cone
