@@ -7,7 +7,6 @@ This calculator currently supports the following types of geometric shapes:
         Cone
         Cylinder
         Sphere
-
 """
 print(welcome_message)
 
