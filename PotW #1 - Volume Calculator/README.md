@@ -6,7 +6,7 @@ This program will calculate the volume (without units) of any of its supported g
 
 ### ***How do I run this program?***
 
-I recommend using Windows PowerShell, as this is how I tested and debugged the program.
+I recommend using either Windows PowerShell or Microsoft VS Code, as these are how I tested and debugged the program.
 
 ### ***Is this program better than online calculators?***
 
