@@ -10,8 +10,8 @@ I recommend using Windows PowerShell, as this is how I tested and debugged the p
 
 ### ***Is this program better than online calculators?***
 
-Nope! I wrote this program to apply what I have learned thus far in my "365 Days of Python" journey.
+Nope! I wrote this program to apply what I have learned thus far in my "365 Days of Python".
 
 ### ***What is "365 Days of Python"?***
 
-Feel free to view my daily blogs on [Medium](https://medium.com/@1809031104050311011804).
+Feel free to view my daily blogs on [Medium](https://medium.com/@1809031104050311011804) to find out!
