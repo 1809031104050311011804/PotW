@@ -69,6 +69,6 @@ bars_labels[1] = "{}%".format(percent_tails)
 
 for bars, bars_labels in zip(bars, bars_labels):
     bar_heights = bars.get_height()
-    ax.text(bars.get_x() + bars.get_width()/2, bar_heights/2, bars_labels, ha="center", va="bottom", backgroundcolor="white")
+    ax.text(bars.get_x() + bars.get_width()/2, bar_heights/2, bars_labels, ha="center", va="bottom", backgroundcolor="w")
 
 plt.show()
