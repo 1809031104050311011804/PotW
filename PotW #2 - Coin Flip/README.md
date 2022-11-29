@@ -2,9 +2,7 @@
 
 ### ***What does this program do?***
 
-This program will simulate n* number of coin flips and perform data analysis on its simulated flips.
-
-**I do not recommend inputting more than 1,000,000 for the number of coin flips.*
+This program will simulate "n" number of coin flips and perform data analysis on its simulated flips.
 
 ### ***How do I run this program?***
 
