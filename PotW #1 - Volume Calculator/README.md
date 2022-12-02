@@ -8,9 +8,9 @@ This program will calculate the volume (without units) of any of its supported g
 
 I recommend using either Windows PowerShell or Microsoft VS Code, as these are how I tested and debugged the program.
 
-### ***Is this program better than online calculators?***
+### ***Why did I write this program?***
 
-Nope! I wrote this program to apply what I have learned thus far during my "365 Days of Python" challenge.
+I wrote this program as part of my "365 Days of Python" challenge.
 
 ### ***What is my "365 Days of Python" challenge?***
 
