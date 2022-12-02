@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as numpy
 from numpy import random
 import matplotlib.pyplot as plt
 
