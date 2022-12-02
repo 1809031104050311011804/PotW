@@ -1,4 +1,4 @@
-# **Welcome to PotW #2 - Coin Flip!**
+# **Welcome to PotW #2 - Coin Flipper!**
 
 ### ***What does this program do?***
 
