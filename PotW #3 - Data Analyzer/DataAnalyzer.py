@@ -74,6 +74,5 @@ def data_analyzer():
             print("No data analysis was performed.")
     else:
         print("No data analysis was performed.")
-        exit()
 
 file()
