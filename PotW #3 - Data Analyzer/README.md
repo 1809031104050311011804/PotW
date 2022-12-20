@@ -1,4 +1,4 @@
-# **Welcome to PotW #3 - Data Analyzer!**
+## **Welcome to PotW #3 - Data Analyzer!**
 
 ### ***What does this program do?***
 
