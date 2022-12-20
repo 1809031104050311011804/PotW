@@ -14,7 +14,7 @@ def clear():
 def introduction():
     clear()
 
-    print("\nWelcome to Hangman!")
+    print("Welcome to Hangman!")
     print("\nIn this game, you will be asked to guess a random word by guessing one letter at a time. If you are unable to guess the word before the hangman is complete, then you lose.")
 
     ready()
@@ -29,7 +29,7 @@ def ready():
     elif player_ready == "N":
         exit()
     else:
-        print("ERROR: INVALID RESPONSE")
+        print("ERROR: INVALID RESPONSE\n")
         ready()
  
 
@@ -46,12 +46,12 @@ def reset():
 def difficulty():
     global player_difficulty
     
-    player_difficulty = input("\nWhat difficulty would you like to play on? (Easy/Medium/Hard)\n").upper()
+    player_difficulty = input("What difficulty would you like to play on? (Easy/Medium/Hard)\n").upper()
     
     if player_difficulty == "EASY" or player_difficulty == "MEDIUM" or player_difficulty == "HARD":
         word()
     else:
-        print("ERROR: INVALID RESPONSE")
+        print("ERROR: INVALID RESPONSE\n")
         difficulty()
 
 
