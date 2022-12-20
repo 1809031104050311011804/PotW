@@ -4,6 +4,13 @@ import os
 import string
 
 
+def clear():
+    if os.name == "posix":
+        os.system("clear")
+    else:
+        os.system("cls")
+
+
 def introduction():
     clear()
 
@@ -177,13 +184,6 @@ def replay():
     else:
         print("ERROR: INVALID RESPONSE")
         replay()
-
-
-def clear():
-    if os.name == "posix":
-        os.system("clear")
-    else:
-        os.system("cls")
 
 
 introduction()
