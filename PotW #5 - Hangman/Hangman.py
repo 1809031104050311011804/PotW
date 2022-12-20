@@ -14,8 +14,9 @@ def clear():
 def introduction():
     clear()
 
-    print("Welcome to Hangman!")
-    print("\nIn this game, you will be asked to guess a random word by guessing one letter at a time. If you are unable to guess the word before the hangman is complete, then you lose.")
+    print("Welcome to Hangman!\n")
+    print("In this game, you will be asked to guess a random word by guessing one letter at a time.")
+    print("If you are unable to guess the word before the hangman is complete, then you lose.")
 
     ready()
 
