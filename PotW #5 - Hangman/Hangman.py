@@ -69,10 +69,10 @@ def word():
     if player_difficulty == "EASY":
         column = 0
         correct_word = word_bank.iloc[row, column]
-    if player_difficulty == "MEDIUM":
+    elif player_difficulty == "MEDIUM":
         column = 1
         correct_word = word_bank.iloc[row, column]
-    if player_difficulty == "HARD":
+    elif player_difficulty == "HARD":
         column = 2
         correct_word = word_bank.iloc[row, column]
 
