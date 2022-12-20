@@ -1,4 +1,4 @@
-# **Welcome to PotW #4 - Tic-Tac-Toe!**
+## **Welcome to PotW #4 - Tic-Tac-Toe!**
 
 ### ***What does this program do?***
 
