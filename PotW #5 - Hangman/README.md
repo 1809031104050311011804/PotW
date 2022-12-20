@@ -1,4 +1,4 @@
-## **Welcome to PotW #5 - Hangman!**
+# **Welcome to PotW #5 - Hangman!**
 
 ### ***What does this program do?***
 
