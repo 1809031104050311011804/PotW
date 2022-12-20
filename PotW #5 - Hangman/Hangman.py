@@ -5,6 +5,8 @@ import string
 
 
 def introduction():
+    clear()
+
     print("\nWelcome to Hangman!")
     print("\nIn this game, you will be asked to guess a random word by guessing one letter at a time. If you are unable to guess the word before the hangman is complete, then you lose.")
 
@@ -12,7 +14,7 @@ def introduction():
 
 
 def ready():
-    player_ready = input("\nAre you ready to continue? (Y/N)\n")
+    player_ready = input("\nAre you ready to continue? (Y/N)\n").upper()
     
     if player_ready == "Y":
         clear()
@@ -37,9 +39,9 @@ def reset():
 def difficulty():
     global player_difficulty
     
-    player_difficulty = input("\nWhat difficulty would you like to play on? (Easy/Medium/Hard)\n")
+    player_difficulty = input("\nWhat difficulty would you like to play on? (Easy/Medium/Hard)\n").upper()
     
-    if player_difficulty == "Easy" or player_difficulty == "Medium" or player_difficulty == "Hard":
+    if player_difficulty == "EASY" or player_difficulty == "MEDIUM" or player_difficulty == "HARD":
         word()
     else:
         print("ERROR: INVALID RESPONSE")
@@ -57,13 +59,13 @@ def word():
     
     row = random.randint(0, len(word_bank)-1)
 
-    if player_difficulty == "Easy":
+    if player_difficulty == "EASY":
         column = 0
         correct_word = word_bank.iloc[row, column]
-    if player_difficulty == "Medium":
+    if player_difficulty == "MEDIUM":
         column = 1
         correct_word = word_bank.iloc[row, column]
-    if player_difficulty == "Hard":
+    if player_difficulty == "HARD":
         column = 2
         correct_word = word_bank.iloc[row, column]
 
@@ -164,12 +166,13 @@ def tracker():
 
 
 def replay():
-    player_replay = input("\nWould you like to play again? (Y/N)\n")
+    player_replay = input("\nWould you like to play again? (Y/N)\n").upper()
 
     if player_replay == "Y":
         clear()
         reset()
     elif player_replay == "N":
+        clear()
         exit()
     else:
         print("ERROR: INVALID RESPONSE")
