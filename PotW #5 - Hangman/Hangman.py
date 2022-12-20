@@ -114,28 +114,19 @@ def result():
             guessed_word[location] = player_guess + " "
             tracked_word[location] = player_guess
             location += 1
-    elif hangman[0] == " " and player_guess not in correct_word:
-        hangman[0] = "O"
-        guesses[g] = player_guess
-        g += 1
-    elif hangman[1] == " " and player_guess not in correct_word:
-        hangman[1] = "|"
-        guesses[g] = player_guess
-        g += 1
-    elif hangman[2] == " " and player_guess not in correct_word:
-        hangman[2] = "\\"
-        guesses[g] = player_guess
-        g += 1
-    elif hangman[3] == " " and player_guess not in correct_word:
-        hangman[3] = "/"
-        guesses[g] = player_guess
-        g += 1
-    elif hangman[4] == " " and player_guess not in correct_word:
-        hangman[4] = "/"
-        guesses[g] = player_guess
-        g += 1
-    elif hangman[5] == " " and player_guess not in correct_word:
-        hangman[5] = "\\"
+    elif player_guess not in correct_word:
+        if hangman[0] == " ":
+            hangman[0] = "O"
+        elif hangman[1] == " ":
+            hangman[1] = "|"
+        elif hangman[2] == " ":
+            hangman[2] = "\\"
+        elif hangman[3] == " ":
+            hangman[3] = "/"
+        elif hangman[4] == " ":
+            hangman[4] = "/"
+        elif hangman[5] == " ":
+            hangman[5] = "\\"
         guesses[g] = player_guess
         g += 1
 
