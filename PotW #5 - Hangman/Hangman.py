@@ -15,6 +15,7 @@ def ready():
     player_ready = input("\nAre you ready to continue? (Y/N)\n")
     
     if player_ready == "Y":
+        clear()
         reset()
     elif player_ready == "N":
         exit()
@@ -133,9 +134,10 @@ def result():
 
 
 def update():
-    updated_word = "".join(guessed_word)
+    clear()
     
-    print("                             ")
+    updated_word = "".join(guessed_word)
+
     print("    ______                   ")
     print("   |/     |                  ")
     print("   |      {}                 ".format(hangman[0]))
@@ -165,12 +167,20 @@ def replay():
     player_replay = input("\nWould you like to play again? (Y/N)\n")
 
     if player_replay == "Y":
+        clear()
         reset()
     elif player_replay == "N":
         exit()
     else:
         print("ERROR: INVALID RESPONSE")
         replay()
+
+
+def clear():
+    if os.name == "posix":
+        os.system("clear")
+    else:
+        os.system("cls")
 
 
 introduction()
