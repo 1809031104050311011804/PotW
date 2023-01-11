@@ -9,6 +9,18 @@ def clear():
         os.system("cls")
 
 
+def user_profile():
+    clear()
+    
+    user_net_monthly_income()
+    user_spending_habits()
+
+    print("Calculating your monthly budget...\n")
+    time.sleep(1)
+
+    monthly_budget_calculator()
+
+
 def user_net_monthly_income():
     global net_monthly_income
 
@@ -40,18 +52,6 @@ def user_spending_habits():
         spending_habits_factor = -0.1
 
 
-def user_profile():
-    clear()
-    
-    user_net_monthly_income()
-    user_spending_habits()
-
-    print("Calculating your monthly budget...\n")
-    time.sleep(1)
-
-    monthly_budget_calculator()
-
-
 def monthly_budget_calculator():
     clear()
 
@@ -73,16 +73,3 @@ def monthly_budget_calculator():
 
 
 user_profile()
-
-
-
-
-
-
-
-
-
-
-
-
-
