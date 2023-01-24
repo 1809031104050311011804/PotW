@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as numpy
 
 welcome_message = """This calculator currently supports the following types of geometric shapes:
         Cube
