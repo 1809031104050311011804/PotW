@@ -1,4 +1,4 @@
-import numpy as numpy
+import numpy as np
 
 welcome_message = """This calculator currently supports the following types of geometric shapes:
         Cube
@@ -82,4 +82,3 @@ elif shape_choice == "Sphere":
 #Unsupported Shape
 else:
     print("Please choose a supported shape.")
-
