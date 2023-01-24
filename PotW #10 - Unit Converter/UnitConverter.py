@@ -93,7 +93,7 @@ def input_convert():
 
 
 def output():
-    print("\n{:0.2f} {} = {:0.2f} {}".format(round(input_value,3), input_units, output_value, output_units))
+    print("\n{:0.4f} {} = {:0.4f} {}".format(round(input_value,3), input_units, output_value, output_units))
 
     time.sleep(2)
     convert_again()
