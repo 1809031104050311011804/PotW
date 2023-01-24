@@ -43,8 +43,6 @@ for x in range(len(results)):
     elif results[x] == 1:
         results[x] = "Tails"
 
-#print(results)
-
 #data analysis
 percent_heads = round(((heads/flips) * 100), 2)
 percent_tails = round(((tails/flips) * 100), 2)
