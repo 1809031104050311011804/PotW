@@ -11,7 +11,7 @@ print(welcome_message)
 
 shape_choice = input("What shape would you like to calculate the volume of? ")
 
-#Cube
+#cube
 if shape_choice == "Cube":
     shape_choice = shape_choice.lower()
     shape_variables = "edge length"
@@ -24,7 +24,7 @@ if shape_choice == "Cube":
     volume = round(volume, 2)
     print("The volume of a {} with an edge length of {} is {}!".format(shape_choice, edge_length, volume))
 
-#Cuboid
+#cuboid
 elif shape_choice == "Cuboid":
     shape_choice = shape_choice.lower()
     shape_variables = "length, width, and height"
@@ -39,7 +39,7 @@ elif shape_choice == "Cuboid":
     volume = round(volume, 2)
     print("The volume of a {} with a length of {}, width of {}, and height of {} is {}!".format(shape_choice, length, width, height, volume))
 
-#Cone
+#cone
 elif shape_choice == "Cone":
     shape_choice = shape_choice.lower()
     shape_variables = "base radius and cone height"
@@ -53,7 +53,7 @@ elif shape_choice == "Cone":
     volume = round(volume, 2)
     print("The volume of a {} with a base radius of {} and a cone height of {} is {}!".format(shape_choice, base_radius, cone_height, volume))
 
-#Cylinder
+#cylinder
 elif shape_choice == "Cylinder":
     shape_choice = shape_choice.lower()
     shape_variables = "base radius and cylinder height"
@@ -67,6 +67,7 @@ elif shape_choice == "Cylinder":
     volume = round(volume, 2)
     print("The volume of a {} with a base radius of {} and a cylinder height of {} is {}!".format(shape_choice, base_radius, cylinder_height, volume))
 
+#sphere
 elif shape_choice == "Sphere":
     shape_choice = shape_choice.lower()
     shape_variables = "radius"
@@ -79,6 +80,6 @@ elif shape_choice == "Sphere":
     volume = round(volume, 2)
     print("The volume of a {} with a radius {} is {}!".format(shape_choice, radius, volume))
     
-#Unsupported Shape
+#unsupported shape
 else:
     print("Please choose a supported shape.")
