@@ -68,10 +68,10 @@ def user_input():
         print("ERROR: INVALID INPUT\n")
         user_input()
     
-    input_converter()
+    input_convert()
 
 
-def input_converter():
+def input_convert():
     global output_value
     
     if selection == 1:
