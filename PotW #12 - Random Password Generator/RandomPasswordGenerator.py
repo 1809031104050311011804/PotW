@@ -14,14 +14,14 @@ def clear():
 def password_generator():
     global password
 
-    password_length = random.randint(8,16)
+    password_length = random.randint(8, 16)
     password = [None] * password_length
 
     symbols = ["!", "@", "#", "$", "%", "^", "&", "*"]
     letters = list(string.ascii_lowercase)
 
     for i in range(len(password)):
-        character_random = random.randint(1,3)
+        character_random = random.randint(1, 3)
         
         if character_random == 1:
             symbol_random = random.randint(1, len(symbols)-1)
@@ -36,7 +36,7 @@ def password_generator():
                 password[i] = letters[letter_random].upper()
         
         elif character_random == 3:
-            number_random = random.randint(0,9)
+            number_random = random.randint(0, 9)
             password[i] = number_random
         
     password = ''.join(map(str, password))
