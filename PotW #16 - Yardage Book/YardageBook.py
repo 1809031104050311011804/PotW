@@ -43,7 +43,7 @@ def supported_courses():
 
 
 def user_course():
-    global course, course_name
+    global course, course_name, pars, yardages
   
     try:
         course = int(input("Which course would you like to see the yardage book for (#)?\n"))
@@ -94,7 +94,7 @@ def course_hole():
 
 def hole_yardage():
     clear()
-    print("{}\n\bHole #{}\nPar {}\n{} Yards\n".format(course_name, hole_numbers[hole], augusta_pars[hole], augusta_yardages[hole]))
+    print("{}\n\bHole #{}\nPar {}\n{} Yards\n".format(course_name, hole_numbers[hole], pars[hole], yardages[hole]))
 
 
 clear()
