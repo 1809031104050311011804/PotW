@@ -40,7 +40,7 @@ class Striker:
 		if self.ypos <= 0:
 			self.ypos = 0
 		elif self.ypos + self.height >= screen_height:
-			self.ypos = screen_height-self.height
+			self.ypos = screen_height - self.height
 
 		self.object_rect = (self.xpos, self.ypos, self.width, self.height)
 
