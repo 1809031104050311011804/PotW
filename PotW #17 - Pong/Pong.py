@@ -167,7 +167,7 @@ def main():
 			color_player2 = color_white
 
 		player1.displayScore("PLAYER #1: ", player1_score, screen_width//2//2, 20, color_player1)
-		player2.displayScore("PLAYER #2: ",	player2_score, screen_width-screen_width//2//2, 20, color_player2)
+		player2.displayScore("PLAYER #2: ", player2_score, screen_width-screen_width//2//2, 20, color_player2)
 
 		pygame.display.update()
 		clock.tick(fps)
