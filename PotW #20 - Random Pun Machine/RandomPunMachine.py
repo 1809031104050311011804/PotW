@@ -50,9 +50,7 @@ def pun_set_up():
 
 
 def pun_punchline():
-    print("")
-    print(puns[pun_number+1])
-    print("")
+    print("\n{}\n".format(puns[pun_number+1]))
 
 
 clear()
