@@ -33,27 +33,27 @@ puns = ["Did you hear they arrested the devil?",                        "Yeah, t
         "What do you call a guy who’s had too much to drink?",          "A cab.",                                                                   ]
 
 
-def random_pun_choice():
+def pun():
     global pun_number
     
     pun_number = random.randrange(0, len(puns), 2)
 
-    random_pun_set_up()
+    pun_set_up()
 
 
-def random_pun_set_up():
+def pun_set_up():
     print(puns[pun_number])
 
     time.sleep(3)
 
-    random_pun_punchline()
+    pun_punchline()
 
 
-def random_pun_punchline():
+def pun_punchline():
     print("")
     print(puns[pun_number+1])
     print("")
 
 
 clear()
-random_pun_choice()
+pun()
