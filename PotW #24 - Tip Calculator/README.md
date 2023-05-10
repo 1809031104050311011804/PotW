@@ -2,7 +2,7 @@
 
 ### ***What does this program do?***
 
-This program will calculate recommend tips based on the total cost of a bill.
+This program will calculate recommended tips based on the total cost of a bill.
 
 ### ***How do I run this program?***
 
